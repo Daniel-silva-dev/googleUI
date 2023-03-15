@@ -1,7 +1,11 @@
+import { Header } from "./components/Header"
 function App() {
 
   return (
-   <div>inicio</div>
+   <div className="global">
+    <Header />
+
+   </div>
   )
 }
 
