@@ -5,9 +5,9 @@ import './Header.css'
 export function Header(){
   return(
     <header className='cabecalho'>
-      <p>Gmail</p>
-      <p>Imagens</p>
-      <p>#</p>
+      <a href='#' >Gmail</a>
+      <a href='#' >Imagens</a>
+      <a href='#' ><p>#</p></a>
       <img src={Logo} alt="Logo" />
     </header>
   )

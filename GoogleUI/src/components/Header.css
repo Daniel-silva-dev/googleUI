@@ -1,5 +1,22 @@
 .cabecalho{
   display: flex;
-  right: 0;
-  margin: 1rem;
+  justify-content: flex-end;
+}
+
+.cabecalho a {
+  cursor: pointer;
+  margin: 2rem 1rem;
+  text-decoration: none;
+}
+
+.cabecalho a:hover{
+  text-decoration: underline;
+}
+
+.cabecalho img{
+  cursor: pointer;
+  margin: 1.2rem 1rem;
+  border-radius: 9999px;
+  width: 3rem;
+  height: 3rem;
 }
