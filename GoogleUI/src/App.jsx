@@ -1,10 +1,6 @@
 import { Header } from "./components/Header"
 import { LogoGoogle } from "./components/LogoGoogle"
-
-import SeachIcon from './imagens/Search.svg'
-import KeyboardIcon from './imagens/Keyboard.png'
-import VoiceIcon from './imagens/Voice.svg'
-import CameraIcon from './imagens/camera.svg'
+import { Input } from "./components/form/input"
 
 function App() {
 
@@ -12,10 +8,7 @@ function App() {
    <div>
     <Header />
     <LogoGoogle />
-    <img src={SeachIcon} alt="" />
-    <img src={KeyboardIcon} alt="" />
-    <img src={VoiceIcon} alt="" />
-    <img src={CameraIcon} alt="" />
+    <Input />
    </div>
   )
 }
